@@ -116,10 +116,10 @@ Baby.prototype.play = function() {
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. If you are using global scope and use the 'this' keyword the value will equal the window/console Object.
+  2. If a preceding dot call upon a function, use the keyword 'this' before the object.
+  3. When using a new constructor using the keyword 'this' will refer to a specific instance of an object that is created and returned by the constructor function.
+  4. When using JS's call or apply method, the keyword 'this' will be specifically defined.
 */
 
 
